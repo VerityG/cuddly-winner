@@ -17,9 +17,11 @@ def log(fn):
 def a(x):
     return -x
 
+
 @log
 def b(x, y):
     return x * y
+
 
 @log
 def c(x, y, *args):
